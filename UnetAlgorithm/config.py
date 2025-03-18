@@ -4,9 +4,9 @@
 import numpy as np
 
 # Define directories for dcm ================================
-BASE_PATH = "/Users/enoragesbert/Documents/ETS/Projet/RdN/Data"
-DCM_PATH = BASE_PATH + "/Fracture3_inverse.nrrd"
-SAVE_MASKS_FILE = "./Label3.nrrd"
+BASE_PATH = "cheminVersLaBaseDeDonnees"
+DCM_PATH = BASE_PATH + "/NomDuFichierDeLaFracture.nrrd"
+SAVE_MASKS_FILE = "./NomDuFichierDuLabel.nrrd"
 
 # Define files to save training model, etc. ===================
 MODEL_PATH = "./segm_shoulder_model.pth"
